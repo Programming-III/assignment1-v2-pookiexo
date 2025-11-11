@@ -4,7 +4,7 @@
 #include <string>
 #include "Student.h"
 using namespace std;
-class Person {
+class Course {
 private:
 string courseCode;
 string courseName;
@@ -14,5 +14,6 @@ int currentStudents;
 public:
 addStudent( const Student& s);
 displayCourseInfo();
+};
 
 #endif
