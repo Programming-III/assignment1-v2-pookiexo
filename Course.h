@@ -4,19 +4,15 @@
 #include <string>
 #include "Student.h"
 using namespace std;
-//#write your code here
-
-
-
-
-
-
-
-
-
-
-
-
-
+class Person {
+private:
+string courseCode;
+string courseName;
+int maxStudents;
+Student* students;
+int currentStudents;
+public:
+addStudent( const Student& s);
+displayCourseInfo();
 
 #endif
