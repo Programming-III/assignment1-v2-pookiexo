@@ -8,6 +8,9 @@ private:
 string name;
 int id; 
 public : 
+Person();
+Person( string name , int id );
+~Person();
 display();
 };
 
